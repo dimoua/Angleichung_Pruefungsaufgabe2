@@ -7,11 +7,9 @@
 Quellen: Unit Testing & Logging: https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217 Decision-Tree: Udemy Kurs - Python für Data Science, Machine Learning & Visualization
 
 ## Funktionsausführung
-Nach der Aufruf der Binder badge, bitte auf der Notebook 3-Logistische_Regression_Projekt-Loesung klicken. Restart der Kernel und Run das gesamte Notebook, damit alle Bibliotheken aufgeladen werden und somit die Funktion head() ausgeführt wird.
+Nach der Aufruf der Binder badge, bitte auf der Notebook 3-Aufgabe2_Decision_Trees_und_Random_Forests_Projekt-Loesung_Fix - Version2.ipynb klicken. Restart der Kernel und Run das gesamte Notebook, damit alle Bibliotheken aufgeladen werden und somit die Funktion head() ausgeführt wird.
 
-Zu Beginn bitte unter "Cell" -> "Run All" auswählen.
-
-Die Funktionen my_logger und my_timer werden hinzugefügt: from functools import wraps def my_logger(orig_func): import logging logging.basicConfig(filename='{}.log'.format(orig_func.name), level=logging.INFO)
+Analog zu der ausgeführte Programm in der Artikel, werden die Funktionen my_logger und my_timer hinzugefügt: from functools import wraps def my_logger(orig_func): import logging logging.basicConfig(filename='{}.log'.format(orig_func.name), level=logging.INFO)
 
 @wraps(orig_func)
 def wrapper(*args, **kwargs):
