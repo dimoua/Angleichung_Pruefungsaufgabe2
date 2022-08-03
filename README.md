@@ -16,13 +16,19 @@ Analog zu der ausgeführte Programm in der Artikel, werden die Funktionen my_log
 
 Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
 
-*** Die erste Funktion ist die Fit-Funktion aus der Decision-Tree Projekt
+### Die erste Funktion ist die Fit-Funktion aus der Decision-Tree Projekt
+
+ @my_logger
+ @my_timer
+ def modelruntime(): 
+    return dtree.fit(X_train,y_train)
+ modelruntime()
 
 <img width="188" alt="Funktionstraining" src="https://user-images.githubusercontent.com/62958158/182722347-e6ec9b33-32a0-469b-b14f-ef7cc7a862cf.png">
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: 
 
-*** modelruntime ran in: 0.09817290306091309 sec
+### modelruntime ran in: 0.09817290306091309 sec
 
 
 ***Zweite Funktion auf die Prediction-Funktion @my_logger @my_timer
