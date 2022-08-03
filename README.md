@@ -43,7 +43,9 @@ predict = dt_predict()
 <img width="173" alt="Funktionspredict" src="https://user-images.githubusercontent.com/62958158/182722285-ea22a0c4-239f-472c-a823-3a8445f8ba53.png">
 
 
-## Nach Ausführung wird folgenden Ergebnis angezeigt: ***dt_predict ran in: 0.0031697750091552734 sec
+**Nach Ausführung wird folgenden Ergebnis angezeigt: 
+
+### dt_predict ran in: 0.0031697750091552734 sec
 
 **Für die my_logger Funktion wird eine Log-Datei "logmodelFit.log" erzeugt, welcher im Ordner gespeichert wird
 
