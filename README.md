@@ -11,13 +11,8 @@ Nach der Aufruf der Binder badge, bitte auf der Notebook 3-Aufgabe2_Decision_Tre
 
 Analog zu der ausgeführte Programm in der Artikel, werden die Funktionen my_logger und my_timer hinzugefügt: from functools import wraps def my_logger(orig_func): import logging logging.basicConfig(filename='{}.log'.format(orig_func.name), level=logging.INFO)
 
-@wraps(orig_func)
-def wrapper(*args, **kwargs):
-    logging.info(
-        'Ran with args: {}, and kwargs: {}'.format(args, kwargs))
-    return orig_func(*args, **kwargs)
+<img width="351" alt="2022-08-03 23_45_53-3-Aufgabe2_D… (auto-d) - JupyterLab" src="https://user-images.githubusercontent.com/62958158/182718616-1369bc6d-33a7-4db9-bf3b-0ad719c7acf5.png">
 
-return wrapper
 
 Anwendung von my_logger und my_timer auf ausgewählte Funktionen. ***Erste Funktion auf die Fit-Funktion @my_logger @my_timer def logmodelFit(): return logmodel.fit(X_train,y_train) logmodelFit() **Nach Ausführung wird folgenden Ergebnis angezeigt: ***logmodelFit ran in: 0.09561443328857422 sec ***LogisticRegression()"
 
