@@ -31,9 +31,9 @@ Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
 ### modelruntime ran in: 0.09817290306091309 sec
 
 
-***Zweite Funktion auf die Prediction-Funktion @my_logger @my_timer
+### Die Zweite Funktion wird auf die Predict Funktion angewendet
 
-def lm_predict(): return logmodel.predict(X_test) predict = lm_predict()
+
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: ***lm_predict ran in: 0.002523660659790039 sec
 
