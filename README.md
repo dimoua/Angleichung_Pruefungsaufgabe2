@@ -47,7 +47,8 @@ predict = dt_predict()
 
 ### dt_predict ran in: 0.0031697750091552734 sec
 
-**Für die my_logger Funktion wird eine Log-Datei "logmodelFit.log" erzeugt, welcher im Ordner gespeichert wird
+**Zum Zweck Protokollierung wird ein modelruntime.log automatisch für die Funktion mylogger erzeugt. Der Log-Datei steht auch in dem Ordner zur Verfügung.
+
 
 #Testfälle 1 und 2
 
