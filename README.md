@@ -14,7 +14,17 @@ Analog zu der ausgeführte Programm in der Artikel, werden die Funktionen my_log
 <img width="351" alt="2022-08-03 23_45_53-3-Aufgabe2_D… (auto-d) - JupyterLab" src="https://user-images.githubusercontent.com/62958158/182718616-1369bc6d-33a7-4db9-bf3b-0ad719c7acf5.png">
 
 
-Anwendung von my_logger und my_timer auf ausgewählte Funktionen. ***Erste Funktion auf die Fit-Funktion @my_logger @my_timer def logmodelFit(): return logmodel.fit(X_train,y_train) logmodelFit() **Nach Ausführung wird folgenden Ergebnis angezeigt: ***logmodelFit ran in: 0.09561443328857422 sec ***LogisticRegression()"
+Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
+
+***Die erste Funktion ist die Fit-Funktion  
+***Decision-Tree()"
+@my_logger
+@my_timer
+def modelruntime(): 
+    return dtree.fit(X_train,y_train)
+modelruntime()
+**Nach Ausführung wird folgenden Ergebnis angezeigt: ***modelruntime ran in: 0.09817290306091309 sec
+
 
 ***Zweite Funktion auf die Prediction-Funktion @my_logger @my_timer
 
