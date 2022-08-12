@@ -45,7 +45,7 @@ predict = dt_predict()
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: 
 
-### dt_predict ran in: 0.0031697750091552734 sec
+### dt_predict ran in: 0.0033729076385498047 sec
 
 **Zum Zweck Protokollierung wird ein modelruntime.log automatisch für die Funktion mylogger erzeugt. Der Log-Datei steht auch in dem Ordner zur Verfügung.
 
