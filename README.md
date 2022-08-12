@@ -40,7 +40,7 @@ def dt_predict():
 predict = dt_predict()
 
 
-<img width="173" alt="Funktionspredict" src="https://user-images.githubusercontent.com/62958158/182722285-ea22a0c4-239f-472c-a823-3a8445f8ba53.png">
+<img width="276" alt="Predict Funktion" src="https://user-images.githubusercontent.com/62958158/184456468-9e7276cd-0df0-41f7-a234-de03da349d5d.png">
 
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: 
