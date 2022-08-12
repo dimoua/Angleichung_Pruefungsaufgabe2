@@ -52,7 +52,9 @@ predict = dt_predict()
 
 #Testfälle 1 und 2
 
-**Für den Testfall 1 steht zum einen der testdatenfile_1.txt sowie der testdatenfile_2.txt zur Verfügung. **Die textfiles werden an folgender Stelle eingelesem with open("testdatenfile_1.txt", 'r') as f: Inhalt = f.read() **Bei Verwendung des ersten Textfiles (testdaten_score=0.85) ist der Test erfolgreich (Anzeige von "OK"). Zur Verwendung des zweiten Testfiles (testdaten_score=0.90) muss in der obigen Funktion der "testdatenfile_1.txt" durch "testdatenfile_2.txt" ersetzt werden. Als Ergebnis werden wir erhalten, dass der Test durchgefallen (Anzeige von "FAILED") ist.
+**Für den Test Fall 1 wird einen CSV Test Datei dummy_data.csv erzeugt. Während der Testfall wird diese Datei mit den Daten aus der bereinigten CSV-Datei der Übung ausgefüllt und mithilfe der Funktion read_csv () auf das Pandas Bibliothek angewendet, ausgelesen. Bei der Verwendung von dieser Datei wird der Unittest Funktion über die Behauptung, dass self.actual_score == testdata_score richtig dargestellt. Das ist eine Bestätigung, dass die Vorhersage Funktion richtig funktioniert wie auf das unten stehende Bild.
+
+
 
 Für Testfall 2 wird überprüft, ob die Laufzeit der Trainingsfunktion, die 120%-Grenze der repräsentativen Laufzeit überschreitet. time_1=time.time() logmodel_test.fit(X_train,y_train) self.time_2 = time.time() - time_1 Durch Ausführen der oben gezeigten Zeilen, wird im Notebook die Laufzeit für die Trainingsfunktion ermittelt, in dem die aktuelle Zeit (time_1) erfasst wird, das Model gefittet wird und im Anschluss erneut die Zeit ermittelt wird und time_1 subtrahiert wird. Das ergenis entspricht dann time_2. Die 120%ige repräsentative Laufzeit wird ermittelt, indem der erhaltene Wert bei: @my_logger @my_timer def logmodelFit(): return logmodel.fit(X_train,y_train) logmodelFit() **Mit dem Ergebnis: logmodelFit ran in: 0.031914472579956055 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion 0.03780817985534668 *unter der Grenzwert der repräsentativen Lautzeit bei 0.0637061119079589
 
