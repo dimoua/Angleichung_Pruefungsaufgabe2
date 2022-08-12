@@ -24,7 +24,7 @@ Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
      return dtree.fit(X_train,y_train)
         modelruntime()
 
-<img width="188" alt="Funktionstraining" src="https://user-images.githubusercontent.com/62958158/182722347-e6ec9b33-32a0-469b-b14f-ef7cc7a862cf.png">
+<img width="261" alt="Training Funktion" src="https://user-images.githubusercontent.com/62958158/184456441-60f3f29a-aa52-4245-9574-c35e4dc896ad.png">
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: 
 
