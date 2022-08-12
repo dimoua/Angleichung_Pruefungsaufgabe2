@@ -52,7 +52,7 @@ predict = dt_predict()
 
 #Testfälle 1 und 2
 
-**Für den Test Fall 1 wird einen CSV Test Datei dummy_data.csv erzeugt. Während der Testfall wird diese Datei mit den Daten aus der bereinigten CSV-Datei der Übung ausgefüllt und mithilfe der Funktion read_csv () auf das Pandas Bibliothek angewendet, ausgelesen. Bei der Verwendung von dieser Datei wird der Unittest Funktion über die Behauptung, dass self.actual_score == testdata_score richtig dargestellt. Das ist eine Bestätigung, dass die Vorhersage Funktion richtig funktioniert wie auf das unten stehende Bild.
+**Für den Test Fall 1 wird einen CSV Test Datei dummy_data.csv erzeugt. Während der Testfall wird diese Datei mit den Daten aus der bereinigten CSV-Datei der Übung ausgefüllt und mithilfe der Funktion read_csv () auf das Pandas Bibliothek angewendet bzw. ausgelesen. Bei der Verwendung von dieser Datei wird der Unittest Funktion über die Behauptung, dass self.actual_score == testdata_score richtig dargestellt. Das ist eine Bestätigung, dass die Vorhersage Funktion erfolgreich funktioniert wie auf das unten stehende Bild.
 
 <img width="341" alt="Testfall1" src="https://user-images.githubusercontent.com/62958158/184445974-68ea9eb1-8a8e-4155-a247-9aa41dcf7176.png">
 
