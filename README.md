@@ -7,6 +7,9 @@
 Quellen: Unit Testing & Logging: https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217 Decision-Tree: Udemy Kurs - Python für Data Science, Machine Learning & Visualization
 
 ************************************************************************************************************************************************************
+
+## Aufgabestellung:
+
 1. Testfall: Wählen Sie geeignete Indikatoren, die Ihnen anzeigen, dass die Vorhersagefunktion 
 predict() des Modells korrekt funktioniert. Im Artikel nutzt der Autor die Indikatoren 
 Accuracy und Confusion Matrix. Schreiben Sie für predict() einen Python Unittest Testfall auf 
