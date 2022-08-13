@@ -56,8 +56,9 @@ predict = dt_predict()
 
 <img width="341" alt="Testfall1" src="https://user-images.githubusercontent.com/62958158/184445974-68ea9eb1-8a8e-4155-a247-9aa41dcf7176.png">
 
-Mit dem Testfall 2 geht es darum zu überprüfen, ob die Trainingsfunktion die 120%-Grenze der repräsentativen Laufzeit überschreitet. Es wird erst mal die Laufzeit der Trainingsfunktion übermittelt.
+Mit dem Testfall 2 geht es darum zu überprüfen, ob die Trainingsfunktion die 120%-Grenze der repräsentativen Laufzeit überschreitet. Es wird erst mal die Laufzeit der Trainingsfunktion übermittelt.<img width="282" alt="Decision Tree Classifier Laufzeit" src="https://user-images.githubusercontent.com/62958158/184459914-c80083ca-5c10-4905-ab87-f29b446b67de.png">
 
+<img width="282" alt="Decision Tree Classifier Laufzeit" src="https://user-images.githubusercontent.com/62958158/184459914-c80083ca-5c10-4905-ab87-f29b446b67de.png">
 
  **Mit dem Ergebnis: logmodelFit ran in: 0.031914472579956055 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion 0.03780817985534668 *unter der Grenzwert der repräsentativen Lautzeit bei 0.0637061119079589
 
