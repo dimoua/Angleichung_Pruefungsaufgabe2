@@ -6,6 +6,18 @@
 
 Quellen: Unit Testing & Logging: https://towardsdatascience.com/unit-testing-and-logging-for-data-science-d7fb8fd5d217 Decision-Tree: Udemy Kurs - Python für Data Science, Machine Learning & Visualization
 
+************************************************************************************************************************************************************
+1. Testfall: Wählen Sie geeignete Indikatoren, die Ihnen anzeigen, dass die Vorhersagefunktion 
+predict() des Modells korrekt funktioniert. Im Artikel nutzt der Autor die Indikatoren 
+Accuracy und Confusion Matrix. Schreiben Sie für predict() einen Python Unittest Testfall auf 
+ausgewählten Testdaten. Die Testdaten legen Sie in einem Testdatenfile ab.
+2. Testfall: Überprüfen Sie, dass das System innerhalb normaler Parameter läuft, indem Sie die 
+Laufzeit der Trainingsfunktion fit() in einem Python Unittest testen. Loggen Sie dazu eine 
+repräsentative Laufzeit mit dem obigen Wrapper. In dem Testfall überprüfen Sie, dass die 
+Laufzeit der Trainingsfunktion während der Testfallausführung einen Grenzwert, z.B. 120% 
+der repräsentativen Laufzeit, nicht überschreitet.
+************************************************************************************************************************************************************
+
 ## Funktionsausführung
 Nach der Aufruf der Binder badge, bitte auf der Notebook Prüfungsaufgabe2_Decision_Tree.ipynb klicken. Restart der Kernel und Run das gesamte Notebook, damit alle Bibliotheken aufgeladen werden und das gesamte Programm ausgeführt wird.
 
