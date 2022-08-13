@@ -25,7 +25,7 @@ der repräsentativen Laufzeit, nicht überschreitet.
 
 Für die erfolgreiche Ausführung des Programms auf mybinder, wurde eine Requirement.txt Datei erstellt, welche die notwendige Bibliothek packet Versionen enthaltet.
 Die vorgegebene Aufgabe Lösung wurde angepasst, indem man mit dem Pip Request andere Bibliotheken für die Ausführung bei mybinder runtergeladen werden.
-* * Die Ausführung des Programms ist erfolgreich, aber die Ergebnisse können von den Ergebnissen der Dokumentation abweichen, da das Betriebtriebsystem und andere Faktoren im Spiel kommen.
+* Die Ausführung des Programms ist erfolgreich, aber die Ergebnisse können von den Ergebnissen der Dokumentation abweichen, da das Betriebtriebsystem und andere Faktoren im Spiel kommen.
 
 ## Funktionsausführung
 Nach der Aufruf der Binder badge, bitte auf der Notebook Prüfungsaufgabe2_Decision_Tree.ipynb klicken. Restart der Kernel und Run das gesamte Notebook, damit alle Bibliotheken aufgeladen werden und das gesamte Programm ausgeführt wird.
