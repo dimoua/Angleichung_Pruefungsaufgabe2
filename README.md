@@ -60,7 +60,7 @@ Mit dem Testfall 2 geht es darum zu überprüfen, ob die Trainingsfunktion die 1
 
 <img width="282" alt="Decision Tree Classifier Laufzeit" src="https://user-images.githubusercontent.com/62958158/184459914-c80083ca-5c10-4905-ab87-f29b446b67de.png">
 
- **Mit dem Ergebnis: logmodelFit ran in: 0.031914472579956055 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion 0.03780817985534668 *unter der Grenzwert der repräsentativen Lautzeit bei 0.0637061119079589
+ ****Mit dem Ergebnis: modelruntime ran in: 0.10239624977111816 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion 0.05776834487915039 *unter der Grenzwert der repräsentativen Laufzeit bei 0.12287549972534179
 
 
 Für Testfall 2 wird überprüft, ob die Laufzeit der Trainingsfunktion, die 120%-Grenze der repräsentativen Laufzeit überschreitet. time_1=time.time() logmodel_test.fit(X_train,y_train) self.time_2 = time.time() - time_1 Durch Ausführen der oben gezeigten Zeilen, wird im Notebook die Laufzeit für die Trainingsfunktion ermittelt, in dem die aktuelle Zeit (time_1) erfasst wird, das Model gefittet wird und im Anschluss erneut die Zeit ermittelt wird und time_1 subtrahiert wird. Das ergenis entspricht dann time_2. Die 120%ige repräsentative Laufzeit wird ermittelt, indem der erhaltene Wert bei: @my_logger @my_timer def logmodelFit(): return logmodel.fit(X_train,y_train) logmodelFit() **Mit dem Ergebnis: logmodelFit ran in: 0.031914472579956055 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion 0.03780817985534668 *unter der Grenzwert der repräsentativen Lautzeit bei 0.0637061119079589
