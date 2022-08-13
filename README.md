@@ -11,7 +11,7 @@ Nach der Aufruf der Binder badge, bitte auf der Notebook Prüfungsaufgabe2_Decis
 
 Analog zu der ausgeführte Programm in der Artikel, werden die Funktionen my_logger und my_timer hinzugefügt: from functools import wraps def my_logger(orig_func): import logging logging.basicConfig(filename='{}.log'.format(orig_func.name), level=logging.INFO)
 
-<img width="351" alt="2022-08-03 23_45_53-3-Aufgabe2_D… (auto-d) - JupyterLab" src="https://user-images.githubusercontent.com/62958158/182718616-1369bc6d-33a7-4db9-bf3b-0ad719c7acf5.png">
+<img width="558" alt="Wrapper Funktion" src="https://user-images.githubusercontent.com/62958158/184510263-9b1652b8-5eaf-4ca8-944d-f18a84be9864.png">
 
 
 Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
