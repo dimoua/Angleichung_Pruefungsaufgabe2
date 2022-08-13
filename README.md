@@ -83,6 +83,6 @@ Die 120%ige repräsentative Laufzeit wird ermittelt, indem der erhaltene Wert be
 
 **Das Ergebnis der 2 Testfälle sieht so aus:
 
-<img width="394" alt="Testfälle Ergebnis" src="https://user-images.githubusercontent.com/62958158/184510075-e5c93987-2f63-40b5-bc27-b0aab15be77c.png">
+<img width="402" alt="Zwei Testfälle" src="https://user-images.githubusercontent.com/62958158/184512230-320af55a-a38a-4ebd-9c57-b32fed6da565.png">
 
 
