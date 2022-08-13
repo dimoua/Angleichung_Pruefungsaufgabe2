@@ -43,7 +43,7 @@ Anwendung von my_logger und my_timer auf ausgewählte Funktionen.
 
 **Nach Ausführung wird folgenden Ergebnis angezeigt: 
 
-### modelruntime ran in: 0.12292194366455078 sec
+### modelruntime ran in: 0.10902047157287598 sec
 
 
 ### Die Zweite Funktion wird auf die Predict Funktion angewendet
