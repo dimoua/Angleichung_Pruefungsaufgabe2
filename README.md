@@ -83,11 +83,11 @@ Mit dem Testfall 2 geht es darum zu überprüfen, ob die Trainingsfunktion die 1
 
 Die 120%ige repräsentative Laufzeit wird ermittelt, indem der erhaltene Wert bei: @my_logger @my_timer def modelruntime(): return dtree.fit(X_train,y_train) modelruntime()****Mit dem Ergebnis: modelruntime ran in: 0.10902047157287598 sec mit dem Faktor 1,2 multipliziert wird. Im vorliegenden Ergebnis liegt die Laufzeit der Trainingsfunktion bei 0.05776834487915039 und unter der Grenzwert der repräsentativen Laufzeit bei 0.12287549972534179
 
-**Das Ergebnis der Testfall 2 sieht so aus:
+**Das Ergebnis der Testfall 2 wird auf das untenstehende Bild dargestellt:
 
 <img width="396" alt="Testfall2" src="https://user-images.githubusercontent.com/62958158/184446193-7d9f25b8-8aa2-4db9-8a0b-c4673d3351df.png">
 
-**Das Ergebnis der 2 Testfälle sieht so aus:
+**Das Ergebnis der 2 Testfälle wird auf das untenstehende Bild abgebildet:
 
 <img width="394" alt="Testfälle Ergebnis" src="https://user-images.githubusercontent.com/62958158/184510075-e5c93987-2f63-40b5-bc27-b0aab15be77c.png">
 
